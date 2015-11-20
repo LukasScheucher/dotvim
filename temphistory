@@ -1,0 +1,455 @@
+    1  ls
+    2  ll
+    3  htop
+    4  sudo apt-get install  htop
+    5  sudo apt-get install vim
+    6  sudo apt-get install okular
+    7  apt-get install gcc-5
+    8  sudo apt-get install gcc-5
+    9  ll
+   10  vim test.cpp
+   11  gcc test.cpp -o test
+   12  vim test.cpp
+   13  gcc test.cpp -o test
+   14  vim test.cpp
+   15  gcc test.cpp -o test
+   16  vim test.cpp
+   17  gcc test.cpp -o test
+   18  vim test.cpp
+   19  gcc test.cpp -o test
+   20  vim test.cpp
+   21  gcc test.cpp -o test
+   22  vim test.cpp
+   23  install
+   24  ./install
+   25  sudo ./install
+   26  ls /sys/class/backlight/
+   27  sudo touch /usr/share/X11/xorg.conf.d/20-intel.conf
+   28  sudo vim /usr/share/X11/xorg.conf.d/20-intel.conf
+   29  sudo touch /usr/share/X11/xorg.conf.d/20-intel.conf
+   30  sudo vim /usr/share/X11/xorg.conf.d/20-intel.conf
+   31  ls /sys/class/backlight/
+   32  sudo vim /etc/default/grub
+   33  sudo update-grub
+   34  sudo reboot
+   35  sudo apt-get install xbacklight 
+   36  xfdesktop --windowlist
+   37  ll
+   38  vimtutor
+   39  sudo apt-get install guake
+   40  guake
+   41  mkdir Dropbox/CONFIG
+   42  vim Dropbox/howto_displaybrightness
+   43  ll
+   44  cd..
+   45  ll
+   46  cd ..
+   47  ll
+   48  ll
+   49  sdjad
+   50  ll
+   51  ls
+   52  sudo apt-get install
+   53  sudo apt-get install lynx
+   54  lynx www.google.de
+   55  ll
+   56  lynx www.computerbase.de
+   57  lynx www.google.de
+   58  vim .vimrc
+   59  vim test
+   60  vim .vimrc
+   61  vim test2.cpp
+   62  vim .vimrc
+   63  vim test2.cpp
+   64  sudo apt-get install mutt
+   65  mutt
+   66  vim .muttrc
+   67  mkdir .mutt
+   68  vim .mutt/xmail
+   69  mutt
+   70  vim .muttrc
+   71  mutt
+   72  vim .muttrc
+   73  mutt
+   74  vim .mutt/xmail
+   75  mutt
+   76  sudo apt-get remove mutt
+   77  sudo apt-get install klavaro 
+   78  klavaro
+   79  vimtutor
+   80  l
+   81  cd Dropbox/Studium/
+   82  ll
+   83  firefox
+   84  lynx
+   85  cd Fach/
+   86  ll
+   87  cd FEFM
+   88  ll
+   89  okular Vorlesung_Kapitel1_150415.pdf 
+   90  okular Vorlesung_Kapitel1_220415.pdf 
+   91  ll
+   92  cd SS14/
+   93  ll
+   94  view //help
+   95  cd ..
+   96  ll
+   97  cd Programmieren/
+   98  ll
+   99  cd Promillerechnet_PIT/
+  100  ll
+  101  vim main.c 
+  102  sudo apt-get install gcalcli
+  103  cd ~
+  104  ll
+  105  gcalcli --help
+  106  gcalcli --config
+  107  vim .gcalclirc
+  108  gcalcli agenda
+  109  gcalcli 
+  110  vim .gcalclirc
+  111  gcalcli 
+  112  vim .gcalclirc
+  113  gcalcli 
+  114  gcalcli agenda
+  115  vim .gcalclirc
+  116  gcalcli agenda
+  117  vim .gcalclirc
+  118  gcalcli agenda
+  119  gcalcli agendall
+  120  pwd
+  121  pll
+  122  ll
+  123  gcalcli //config
+  124  gcalcli --config
+  125  gcalcli --config=~/.gcalclirc
+  126  vim .gcalclirc
+  127  gcalcli --config=~/.gcalclirc
+  128  gcalcli agenda
+  129  xmodmap
+  130  vim .Xmodmap
+  131  xmodmap .Xmodmap 
+  132  rm .Xmodmap 
+  133  ll
+  134  la
+  135  ls
+  136  ll
+  137  g++ *.cpp -o release
+  138  history
+  139  ladas ist das Haus vom Nikolaus
+  140  tmux
+  141  quit
+  142  vim car.cpp
+  143  ll
+  144  vim car.cpp
+  145  vim car.h
+  146  cd Dropbox/Studium/Fach/PR_HPC/
+  147  ll
+  148  okular tao_manual.pdf &
+  149  synclient PalmDetect=1
+  150  synclient TouchpadOff=1
+  151  synclient TouchpadOff=0
+  152  synclient --help
+  153  synclient -l
+  154  finch
+  155  cd ~
+  156  cd Dropbox/
+  157  ll
+  158  ls
+  159  vim Brief_Wall.odt 
+  160  libreoffice Brief_Wall.odt 
+  161  vim mail_wall
+  162  vim mail_wall 
+  163  editor mail_wall 
+  164  asda
+  165  gcc main.cpp -o release
+  166  HPC 
+  167  cd cpp_exercises/Cars/
+  168  gcc main.cpp -o release
+  169  g++ main.cpp -o release
+  170  release
+  171  ll
+  172  ./release 
+  173  vim test
+  174  lynx www.nachrichten.at
+  175  sudo apt-get install gtypist 
+  176  gtzpist
+  177  gtypist 
+  178  HPC
+  179  source ./.bashrc 
+  180  HPC 
+  181  ls
+  182  mkdir cpp_exercises
+  183  cd cpp_exercises/
+  184  mkdir Cars
+  185  cd Cars/
+  186  ll
+  187  vim main.cpp
+  188  gcc main.cpp -o release
+  189  vim main.cpp
+  190  gcc main.cpp -o release
+  191  vim main.cpp
+  192  vim auto.cpp
+  193  sudo apt-get install tmux
+  194  tmux
+  195  namei test
+  196  tmux
+  197  ssd
+  198  g++ *.cpp -o release
+  199  clear g++ *.cpp -o release
+  200  clear; g++ *.cpp -o release
+  201  vim car.cpp 
+  202  matlab --nogui
+  203  matlab --help
+  204  matlab -nodesktop
+  205  split -help
+  206  split --help
+  207  dnf install paraview
+  208  sudo apt-get install paraview
+  209  sudo apt-get install petsc
+  210  sudo apt-get install petsc-dev 
+  211  echo $PETSC_DIR
+  212  sudo apt-get install finch
+  213  finch
+  214  sudo apt-get install  alpine
+  215  alpine
+  216  mutt
+  217  gcalcli
+  218  vim .gcalclirc 
+  219  gcalcli
+  220  sudo apt-get install eclipse
+  221  eclipse
+  222  HPC
+  223  source .bashrc
+  224  HPC
+  225  vim readme
+  226  cp Downloads/codeframe_new.zip Dropbox/Studium/Fach/PR_HPC/
+  227  vim .bashrc
+  228  source .bashrc
+  229  cd HPC
+  230  HPC
+  231  cd HPC
+  232  vim .bashrc
+  233  source .bashrc
+  234  HPC 
+  235  ll
+  236  unzip codeframe_new.zip 
+  237  ll
+  238  cd codeframe/
+  239  ll
+  240  cd 3rdparty/
+  241  ll
+  242  cd..
+  243  vim main
+  244  ll
+  245  cd ..
+  246  ll
+  247  vim main
+  248  vim main.cpp 
+  249  ll
+  250  cd ..
+  251  ll
+  252  cd codeframe/ll
+  253  cd codeframe/
+  254  ll
+  255  cd stencils/
+  256  ll
+  257  cd ..
+  258  ls
+  259  ll
+  260  ./configure
+  261  vim Makefile 
+  262  make
+  263  vim Makefile 
+  264  make
+  265  vim petsc_commandline_arg 
+  266  ll
+  267  vim auto.cpp 
+  268  rm auto.cpp 
+  269  vim main.cpp 
+  270  vim cavity
+  271  vim cavity3D.vtk 
+  272  lynx www.ubuntuusers.com
+  273  vim .bashrc 
+  274  ATOM 
+  275  ll
+  276  vim Weiner.pdf 
+  277  okular Weiner.pdf 
+  278  ll
+  279  okular art%3A10.1007%2Fs10822-011-9517-y.pdf 
+  280  HPC
+  281  cd codeframe/
+  282  tmux
+  283  ll
+  284  vim cavity2D.vtk
+  285  ll
+  286  vim Makefile 
+  287  tmux
+  288  paraview
+  289  HPC 
+  290  paraview codeframe/cavity3D.vtk 
+  291  ll
+  292  cd ..
+  293  ll
+  294  okular manual.pdf 
+  295  ll
+  296  mv manual.pdf petsc_manual.pdf
+  297  ll
+  298  vim proposal.pdf 
+  299  okular proposal.pdf 
+  300  mv proposal.pdf lecture_proposal.pdf
+  301  ll
+  302  okular NS-EOF-Tutorial.pdf 
+  303  l
+  304  vim main.cpp
+  305  vim
+  306  vill
+  307  HPC 
+  308  ll
+  309  okular NS
+  310  okular NS-EOF-Tutorial.pdf 
+  311  okular 20151022_Intro_c++.pdf &
+  312  ll
+  313  okular NS-EOF-Tutorial.pdf &
+  314  firefox $
+  315  ll
+  316  $ set
+  317  set
+  318  echo "$HOME"
+  319  echo "$PETSC_DIR"
+  320  cd /home/lukas/programs/petsc-3.3-p7/
+  321  ll
+  322  cd bin
+  323  ll
+  324  cd ..
+  325  ll
+  326  export PETSC_DIR=/home/lukas/programs/petsc-3.3-p7
+  327  echo "$PETSC_DIR"
+  328  vim make
+  329  vim makefile
+  330  ll
+  331  cd conf
+  332  ll
+  333  vim variables 
+  334  HPC 
+  335  tmux
+  336  ll
+  337  cd codeframe/
+  338  vim Definitions.h 
+  339  sudo apt-get install petsc*
+  340  sudo apt-get install petsc-dev 
+  341  sudo apt-get remove 
+  342  sudo apt-get remove petsc-dev 
+  343  mkdir ~/programs/petsc
+  344  mv ~/Downloads/petsc-3.3-p7.tar.gz ~/programs/
+  345  cd ~/pr
+  346  cd ~/programs/
+  347  ll
+  348  tar --help
+  349  tar -zxvf petsc-3.3-p7.tar.gz 
+  350  ll
+  351  rm petsc
+  352  rm -r petsc
+  353  ll
+  354  cd petsc-3.3-p7/
+  355  ll
+  356  vim makefile
+  357  ./configure --with-cc=gcc --with-cxx=g++ --with-fc=gfortran --download-fblaslapack --download-openmpi
+  358  make all test
+  359  ll
+  360  make install
+  361  ./.configure
+  362  ./configure
+  363  make
+  364  make PETSC_DIR=/home/lukas/programs/petsc-3.3-p7 PETSC_ARCH=arch-linux2-c-debug test
+  365  make install
+  366  make install PETSC_DIR=/home/lukas/programs/petsc-3.3-p7 PETSC_ARCH=arch-linux2-c-debug
+  367  make install --prefix
+  368  sudo apt-get install gparted 
+  369  gparted
+  370  sudo gparted
+  371  make install
+  372  ./configure --with-cc=gcc --with-cxx=g++ --with-fc=gfortran --download-fblaslapack --download-mpich
+  373  make all test
+  374  make install
+  375  HPC
+  376  ll
+  377  cd codeframe
+  378  ll
+  379  vim petsc_commandline_arg
+  380  ll
+  381  make
+  382  make install
+  383  ll
+  384  vim cavity3D.vtk 
+  385  cd ..
+  386  vim codeframe/ main.cpp
+  387  cd code
+  388  cd codeframe/
+  389  vim main.cpp
+  390  vim Stencil.h 
+  391  cd codeframe
+  392  ll
+  393  cd stencils/
+  394  vim StencilFunctions.h 
+  395  ll
+  396  cd codeframe/
+  397  ll
+  398  vim conf_channel.xml 
+  399  ll
+  400  cd cpp_exercises/
+  401  ll
+  402  cd ..
+  403  cd codeframe/
+  404  ll
+  405  make clean
+  406  make
+  407  ll
+  408  cd ..
+  409  ll
+  410  cd codeframe/
+  411  ll
+  412  vim petsc_commandline_arg 
+  413  cd stencils/
+  414  ll
+  415  vim VTKStencil.h 
+  416  sudo apt-get install eclipse-cdt
+  417  cd ..
+  418  ll
+  419  make
+  420  vim ~/.bashrc
+  421  make
+  422  ll
+  423  make
+  424  FEFM 
+  425  ll
+  426  okular Vorlesung_Kapitel1_290415.pdf 
+  427  okular Vorlesung_Kapitel2_060515.pdf 
+  428  ll
+  429  okular Vorlesung_Kapitel2_060515.pdf 
+  430  okular Vorlesung_Kapitel1_290415.pdf 
+  431  okular Vorlesung_Kapitel2_060515.pdf 
+  432  sudo apt-get install google-chrome
+  433  ll
+  434  HPC 
+  435  ll
+  436  cd codeframe
+  437  ll
+  438  vim Iterators.
+  439  vim Iterators.cpp
+  440  vim Iterators.cpph
+  441  matlab
+  442  htop
+  443  vim ./vimrc
+  444  vim ./.vimrc 
+  445  vim
+  446  sudo apt-get install vundle
+  447  close
+  448  quit
+  449  cd 
+  450  cd vim
+  451  cd .vim/
+  452  ll
+  453  vim README
+  454  vim vimrc 
+  455  history > temphistory
