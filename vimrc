@@ -36,6 +36,7 @@ set autoread
 
 nnoremap <leader>ev :split $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
+nnoremap <F8> :TagbarToggle<CR>
 
 inoremap jk <esc>
 
