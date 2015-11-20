@@ -1,9 +1,11 @@
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 call pathogen#helptags()
 
 set hlsearch
 set showmatch
 set expandtab
+
+set tags=./tags,./TAGS,tags,TAGS,/usr/lib/petscdir/3.4.2/tags
 
 " 1 tab == 2 spaces
 set shiftwidth=2
@@ -32,9 +34,22 @@ filetype indent on
 " Set to auto read when a file is changed from the outside
 set autoread
 
+nnoremap <leader>ev :split $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+
+inoremap jk <esc>
+
+nnoremap <leader>s :w<cr>
+
+nnoremap H 0
+nnoremap L $
 
 
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
 
+let &colorcolumn=join(range(81,81),",")
+highlight ColorColumn ctermbg=7
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface

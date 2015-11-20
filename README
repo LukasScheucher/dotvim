@@ -12,3 +12,15 @@ nstallation:
                 cd ~/.vim
           v git submodule init
  git submodule update
+
+
+
+
+
+
+ some important notes from sebi-session
+
+ whenever i have a bigger project, there is this ycm extra config python script that i have to place inside the directory of the code.
+ this allows for detialed compiler warnings thanks to clang
+
+whenever I start a new project, I simply call "ctags ." to create a tags file. vim now automatically detects the tags file
