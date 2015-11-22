@@ -33,6 +33,7 @@ Plugin 'scrooloose/nerdcommenter'
 " " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
+filetype plugin on "not sure if this is the required line for NERDCommenter
 
 " proper ctags call:
 " ctags --c++-kinds=+p --fields=+iaS --extra=+q --language-force=C++
@@ -68,7 +69,8 @@ set si "Smart indent
 set wrap "Wrap lines
 
 
-
+" automatically open quickfix window after running space
+autocmd QuickFixCmdPost * :copen
 
 
 
@@ -87,12 +89,17 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <F8> :TagbarToggle<CR>
 nnoremap <F7> :NERDTree<CR>
 
+nnoremap <leader>t :tabedit %<cr>
+nnoremap <leader>tt :tabclose<cr>
+
 inoremap jk <esc>
 
 nnoremap <leader>s :w<cr>
 
 nnoremap H 0
 nnoremap L $
+
+"nnoremap <C-w>o <C-w>\| <C-w>_
 
 "mapping to simplify navigation between tabs
 map <C-l> :tabn<CR>
@@ -161,3 +168,29 @@ set noerrorbells
 set novisualbell
 set t_vb=
 set tm=500
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Custom functions
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+"nnoremap <C-W>O :call MaximizeToggle()<CR>
+"nnoremap <C-W>o :call MaximizeToggle()<CR>
+"nnoremap <C-W><C-O> :call MaximizeToggle()<CR>
+
+"function! MaximizeToggle()
+    "if exists("s:maximize_session")
+      "exec "source " . s:maximize_session
+      "call delete(s:maximize_session)
+      "unlet s:maximize_session
+      "let &hidden=s:maximize_hidden_save
+      "unlet s:maximize_hidden_save
+    "else
+      "let s:maximize_hidden_save = &hidden
+      "let s:maximize_session = tempname()
+      "set hidden
+      "exec "mksession! " . s:maximize_session
+      "only
+    "endif
+"endfunction
