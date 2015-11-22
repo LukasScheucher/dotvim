@@ -9,7 +9,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=/data/home/scheucher/.vim/bundle/Vundle.vim
+set rtp+=/home/lukas/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
@@ -27,6 +27,7 @@ Plugin 'majutsushi/tagbar'
 " Please also consider the ycm_extra_config.py script
 " for any given directory run <ctags -R .> first for YCM to work properly
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'flazz/vim-colorschemes'
 
 " " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -40,6 +41,10 @@ set tags+=/scratch/scheucher/workspace/baci_hiwi/tags
 "call pathogen#helptags()
 
 let g:airline_powerline_fonts = 1
+"let g:airline_symbols
+set t_Co=256 "enable 256 colors in the terminal
+"set t_AB=^[[48;5;%dm "not really sure what this does
+"set t_AF=^[[38;5;%dm "not really sure what this does
 
 set hlsearch
 set showmatch
@@ -86,9 +91,16 @@ nnoremap <leader>s :w<cr>
 nnoremap H 0
 nnoremap L $
 
+"mapping to simplify navigation between tabs
+map <C-l> :tabn<CR>
+map <C-h> :tabp<CR>
+map <C-n> :tabnew<CR>
+
 " launch NERDTree autoamtically on statup
 "autocmd VimEnter * NERDTree
 "autocmd VimEnter * wincmd p
+let g:NERDTreeShowHidden=1 "show hidden files in NERDTree by default
+let g:airline_powerline_fonts=1
 
 let &colorcolumn=join(range(81,81),",")
 highlight ColorColumn ctermbg=7
