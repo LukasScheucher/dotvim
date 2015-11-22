@@ -28,6 +28,7 @@ Plugin 'majutsushi/tagbar'
 " for any given directory run <ctags -R .> first for YCM to work properly
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'scrooloose/nerdcommenter'
 
 " " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -42,7 +43,9 @@ set tags+=/scratch/scheucher/workspace/baci_hiwi/tags
 
 let g:airline_powerline_fonts = 1
 "let g:airline_symbols
-set t_Co=256 "enable 256 colors in the terminal
+"enable 256 colors in terminal, this might be useful if problems with
+" the depiction of vim-airline occurs
+"set t_Co=256 "enable 256 colors in the terminal
 "set t_AB=^[[48;5;%dm "not really sure what this does
 "set t_AF=^[[38;5;%dm "not really sure what this does
 
