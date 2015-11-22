@@ -46,7 +46,7 @@ let g:airline_powerline_fonts = 1
 "let g:airline_symbols
 "enable 256 colors in terminal, this might be useful if problems with
 " the depiction of vim-airline occurs
-"set t_Co=256 "enable 256 colors in the terminal
+set t_Co=256 "enable 256 colors in the terminal
 "set t_AB=^[[48;5;%dm "not really sure what this does
 "set t_AF=^[[38;5;%dm "not really sure what this does
 
@@ -109,6 +109,9 @@ map <C-n> :tabnew<CR>
 " launch NERDTree autoamtically on statup
 "autocmd VimEnter * NERDTree
 "autocmd VimEnter * wincmd p
+autocmd VimEnter * colorscheme 256-grayvim
+"autocmd VimEnter * set background=dark "this command might be needed for some
+"colorshemes
 let g:NERDTreeShowHidden=1 "show hidden files in NERDTree by default
 let g:airline_powerline_fonts=1
 
