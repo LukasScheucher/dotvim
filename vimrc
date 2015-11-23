@@ -29,6 +29,8 @@ Plugin 'majutsushi/tagbar'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'vim-scripts/MatlabFilesEdition'
+Plugin 'christoomey/vim-tmux-navigator'
 
 " " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -98,6 +100,12 @@ nnoremap <leader>s :w<cr>
 
 nnoremap H 0
 nnoremap L $
+
+"deactivate arrowkeys to projibit this bad habitat
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
 
 "nnoremap <C-w>o <C-w>\| <C-w>_
 
