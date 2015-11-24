@@ -32,6 +32,7 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'vim-scripts/MatlabFilesEdition'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'lervag/vimtex'
+Plugin 'vim-latex/vim-latex'
 
 " " All of your Plugins must be added before the following line
 call vundle#end()            " required
