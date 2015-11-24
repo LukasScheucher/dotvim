@@ -31,6 +31,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'vim-scripts/MatlabFilesEdition'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'lervag/vimtex'
 
 " " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -110,9 +111,9 @@ noremap <Right> <NOP>
 "nnoremap <C-w>o <C-w>\| <C-w>_
 
 "mapping to simplify navigation between tabs
-map <C-l> :tabn<CR>
-map <C-h> :tabp<CR>
-map <C-n> :tabnew<CR>
+noremap <C-l> :tabn<CR>
+noremap <C-h> :tabp<CR>
+noremap <C-n> :tabnew<CR>
 
 " launch NERDTree autoamtically on statup
 "autocmd VimEnter * NERDTree
