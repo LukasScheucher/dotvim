@@ -39,6 +39,8 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 filetype plugin on "not sure if this is the required line for NERDCommenter
 
+
+
 " proper ctags call:
 " ctags --c++-kinds=+p --fields=+iaS --extra=+q --language-force=C++
 set tags+=/scratch/scheucher/workspace/baci_hiwi/tags
@@ -76,6 +78,9 @@ set wrap "Wrap lines
 " automatically open quickfix window after running space
 autocmd QuickFixCmdPost * :copen
 
+"the following command is needed so that the latex suite is also loaded
+"on empty texfiles
+let g:tex_flavour='latex'
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -96,7 +101,7 @@ nnoremap <F7> :NERDTree<CR>
 nnoremap <leader>t :tabedit %<cr>
 nnoremap <leader>tt :tabclose<cr>
 
-inoremap jk <esc>
+inoremap kj <esc>
 
 nnoremap <leader>s :w<cr>
 
@@ -112,9 +117,9 @@ noremap <Right> <NOP>
 "nnoremap <C-w>o <C-w>\| <C-w>_
 
 "mapping to simplify navigation between tabs
-noremap <C-l> :tabn<CR>
-noremap <C-h> :tabp<CR>
-noremap <C-n> :tabnew<CR>
+noremap <S-L> :tabn<CR>
+noremap <S-H> :tabp<CR>
+noremap <S-N> :tabnew<CR>
 
 " launch NERDTree autoamtically on statup
 "autocmd VimEnter * NERDTree
