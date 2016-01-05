@@ -34,6 +34,10 @@ Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'lervag/vimtex'
 Plugin 'vim-latex/vim-latex'
 
+Plugin 'dajero/VimLab'
+Plugin 'scrooloose/syntastic'
+Plugin 'ervandew/screen'
+
 " " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -101,7 +105,7 @@ nnoremap <F7> :NERDTree<CR>
 nnoremap <leader>t :tabedit %<cr>
 nnoremap <leader>tt :tabclose<cr>
 
-inoremap kj <esc>
+inoremap jk <esc>
 
 nnoremap <leader>s :w<cr>
 
