@@ -1,5 +1,5 @@
 [submodule "bundle/fugitive"]
-	path = bundle/fugitive
+	path = bundle/vim-fugitive
 	url = http://github.com/tpope/vim-fugitive.git
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
@@ -13,3 +13,39 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.wiki.git
+[submodule "bundle/MatlabFilesEdition"]
+  path = bundle/MatlabFilesEdition
+  url  = https://github.com/vim-scripts/MatlabFilesEdition.git
+[submodule "bundle/VimLab"]
+  path = bundle/VimLab
+  url = https://github.com/dajero/VimLab.git
+[submodule "bundle/Vundle"]
+  path = bundle/Vundle.vim
+  url = https://github.com/VundleVim/Vundle.vim.git
+[submodule "nerdcommenter"]
+  path = bundle/nerdcommenter
+  url = https://github.com/VundleVim/Vundle.vim.git
+[submodule "nerdtree-git-plugin"]
+  path = bundle/nerdtree-git-plugin
+  url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "screen"]
+  path = bundle/screen
+  url = https://github.com/ervandew/screen.git
+[submodule "syntastic"]
+  path = bundle/syntastic
+  url = https://github.com/scrooloose/syntastic.git
+[submodule "vim-airline"]
+  path = bundle/vim-airline
+  url = https://github.com/vim-airline/vim-airline.git
+[submodule "vim-colorshemes"]
+  path = bundle/vim-colorschemes
+  url = https://github.com/flazz/vim-colorschemes.git
+[submodule "vim-latex"]
+  path = bundle/vim-latex
+  url = https://github.com/vim-latex/vim-latex.git
+[submodule "vim-tmux-navigator"]
+  path = bundle/vim-tmux-navigator
+  url = https://github.com/christoomey/vim-tmux-navigator.git
+[submodule "vimtex"]
+  path = bundle/vimtex
+  url = https://github.com/lervag/vimtex.git

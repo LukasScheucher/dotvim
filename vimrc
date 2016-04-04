@@ -34,9 +34,28 @@ Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'lervag/vimtex'
 Plugin 'vim-latex/vim-latex'
 
+"VimLab replicates MATLAB's support for code sections in Vim. It uses tmux to
+"maintain a MATLAB session from within vim.
 Plugin 'dajero/VimLab'
 Plugin 'scrooloose/syntastic'
-Plugin 'ervandew/screen'
+"Plugin 'ervandew/screen'
+
+Plugin 'JuliaLang/julia-vim'
+"Plugin 'jpalardy/vim-slime'
+"Plugin 'MichaelMalick/vim-raven'
+Plugin 'benmills/vimux'
+
+ function! VimuxSlime()
+     call VimuxSendText(@v)
+       call VimuxSendKeys("Enter")
+        endfunction
+
+         " If text is selected, save it in the v buffer and send that buffer
+         " it to tmux
+         "  vmap <LocalLeader>vs "vy :call VimuxSlime()<CR>
+         "
+         "   " Select current paragraph and send it to tmux
+         "    nmap <LocalLeader>vs vip<LocalLeader>vs<CR>
 
 " " All of your Plugins must be added before the following line
 call vundle#end()            " required
