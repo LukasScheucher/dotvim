@@ -56,6 +56,9 @@ Plugin 'benmills/vimux'
 Plugin 'bronson/vim-trailing-whitespace'
 "}}}‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 
+Plugin 'rdnetto/YCM-Generator'
+"Plugin 'justmao945/vim-clang'
+
 "{{{VimuxSlime function definition____________________________________________
  function! VimuxSlime()
      call VimuxSendText(@v)
@@ -129,8 +132,8 @@ noremap <Right> <NOP>
 
 
 "mapping to simplify navigation between tabs
-noremap <S-L> :tabn<CR>
-noremap <S-H> :tabp<CR>
+noremap <leader><Tab> :tabn<CR>
+noremap <leader>` :tabp<CR>
 noremap <S-N> :tabnew<CR>
 "}}}‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 
@@ -230,23 +233,21 @@ set tm=500
 "}}}__________________________________________________________________________
 
 "{{{custom functions__________________________________________________________
-"nnoremap <C-W>O :call MaximizeToggle()<CR>
-"nnoremap <C-W>o :call MaximizeToggle()<CR>
-"nnoremap <C-W><C-O> :call MaximizeToggle()<CR>
+nnoremap <leader>t :call MaximizeToggle()<CR>
 
-"function! MaximizeToggle()
-    "if exists("s:maximize_session")
-      "exec "source " . s:maximize_session
-      "call delete(s:maximize_session)
-      "unlet s:maximize_session
-      "let &hidden=s:maximize_hidden_save
-      "unlet s:maximize_hidden_save
-    "else
-      "let s:maximize_hidden_save = &hidden
-      "let s:maximize_session = tempname()
-      "set hidden
-      "exec "mksession! " . s:maximize_session
-      "only
-    "endif
-"endfunction
+function! MaximizeToggle()
+    if exists("s:maximize_session")
+      exec "source " . s:maximize_session
+      call delete(s:maximize_session)
+      unlet s:maximize_session
+      let &hidden=s:maximize_hidden_save
+      unlet s:maximize_hidden_save
+    else
+      let s:maximize_hidden_save = &hidden
+      let s:maximize_session = tempname()
+      set hidden
+      exec "mksession! " . s:maximize_session
+      only
+    endif
+endfunction
 "}}}‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
